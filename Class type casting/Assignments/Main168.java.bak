@@ -1,0 +1,13 @@
+class Cool2
+{
+ void disp()
+ {
+  System.out.println("hello");
+ }
+}
+class Dinga extends Cool2
+{
+ int  x;
+ void tata()
+
+}

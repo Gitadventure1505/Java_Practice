@@ -1,0 +1,23 @@
+class Demo
+{
+ int x;
+}
+class Pemocha extends Demo
+{
+ void ho()
+ {
+  System.out.println("objective");
+ }
+}
+class Main161
+{
+ public static void main(String[] args)
+ { 
+  Demo d=new Pemocha();     //upcasting
+  System.out.println(d.x);
+  Pemocha p = (Pemocha)d;  //downcasting
+  System.out.println(p.x);
+  p.ho();
+
+ }
+}

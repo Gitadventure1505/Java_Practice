@@ -1,0 +1,43 @@
+class demo1
+{
+ int demo1 = 1;
+}
+class demo2 extends demo1
+{
+ void add()
+ {
+ System.out.println("demo2");
+ }
+}
+class Demo3 extends demo1
+{
+ void sub()
+ {
+  System.out.println("demo3");
+ }
+}
+class Demo4 extends demo2
+{
+ void mul()
+ {
+  System.out.println("demo4");
+ }
+}
+class Hybridinheritance
+{
+ public static void main(String[] args)
+ {
+  Demo3 d3 = new Demo3();
+  Demo4 d4 = new Demo4();
+  System.out.println("multi level heritance start");
+  System.out.println(d4.demo1);
+  d4.add();
+  d4.mul();
+  System.out.println("multi level inheritance ends");
+  System.out.println("hierarchical starts");
+  System.out.println(d3.demo1);
+  d3.sub();
+  System.out.println("hierarchical ends");
+   
+ }
+}

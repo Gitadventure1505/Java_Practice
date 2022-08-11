@@ -1,0 +1,32 @@
+class Discovery
+{
+ void watch()
+ {
+  System.out.println("channel is playing");
+ }
+}
+class Cableoperator
+{
+ public static void main(String[] args)
+ {
+  Cableoperator c2 = new Cableoperator();
+  User1 u1 = new User1();
+  User2 u2 = new User2();
+  u1.tvon(c2);
+  u2.tvon(c2);
+ }
+}
+class User1
+{
+ void tvon(Discovery conn)
+ {
+  conn.watch();
+ }
+}
+class User2
+{
+ void tvon(Discovery conn)
+ {
+  conn.watch();
+ }
+}

@@ -1,0 +1,16 @@
+class Triangle16
+{
+   static void triaArea()
+   {
+      byte b = 4;
+      byte h = 5;
+      int area = (b*h)/2;
+      System.out.println("Area = "+ area);
+   }
+      public static void main(String[] args)
+      {
+         System.out.println("----calc starts----");
+	 triaArea();
+	 System.out.println("----calc ends----");
+      }
+}

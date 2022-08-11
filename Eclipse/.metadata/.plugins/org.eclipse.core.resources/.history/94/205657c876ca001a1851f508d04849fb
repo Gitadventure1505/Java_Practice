@@ -1,0 +1,25 @@
+package string;
+
+public class Interv {
+	
+	public static String method(String sente)
+	{
+		String res="";
+		String[] words = sente.split("\\s");
+		for(String w : words)
+		{   
+			StringBuilder sb = new StringBuilder(w);
+			sb.reverse();
+			res = res+sb.toString();
+		}
+		return res;
+	}
+
+	public static void main(String[] args) 
+	{
+		String str = "can i stab bats in a cave";
+		System.out.println(method(str));
+   
+	}
+
+}

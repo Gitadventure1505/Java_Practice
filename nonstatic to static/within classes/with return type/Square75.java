@@ -1,0 +1,15 @@
+class Square75
+{
+ public static void main(String[] args)
+ {
+  int squ = new Square75().area();
+  int squ4 = squ*5;
+  System.out.println("area of 4 square = "+squ4);
+ }
+  int area()
+ {
+  int a = 4;
+  int ans = a*a;
+  return ans;
+ }
+}

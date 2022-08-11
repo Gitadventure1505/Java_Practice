@@ -1,0 +1,26 @@
+class Tester
+{
+ int r;
+}
+
+class Tista extends Tester
+{
+ Void ulliya()
+ {
+ System.out.println("scope");
+  return null;
+ }
+}
+
+class Main162
+{
+ public static void main(String[] args)
+ {
+  Tester t1 = new Tista();
+  System.out.println(t1.r);
+
+  Tista t2 = (Tista) t1;
+  System.out.println(t2.r);
+  t2.ulliya();
+ }
+}

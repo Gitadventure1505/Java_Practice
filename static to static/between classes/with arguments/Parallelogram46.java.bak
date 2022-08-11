@@ -1,0 +1,16 @@
+class Parallelogram46
+{
+ public static void main(String[] args)
+ {
+  Operation3.area();
+  Operation3.area();
+ }
+}
+class Operation3
+{
+ static void area(int b, int h)
+ {
+  int ans = (b*h)/2;
+  System.out.println("area of parallel ="+ans);
+ }
+}

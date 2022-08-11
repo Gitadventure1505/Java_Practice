@@ -1,0 +1,35 @@
+package execution_on_interface;
+
+interface Nike
+{
+	void bags();
+}
+
+interface Puma extends Nike
+{
+	void shoes();
+	}
+
+abstract class Ownership implements Puma
+{
+  public void bags()
+  {
+	  System.out.println("all type of bags");
+  }
+}
+public class Rajoutlet extends Ownership
+{
+	protected String s1 = "Hiii";
+	public void shoes()
+	{
+		System.out.println("all type shoes");
+	}
+   public static void main(String[] args)
+   {
+	   Rajoutlet r = new Rajoutlet();
+	   String s1 = Integer.toString(45);
+	   System.out.println(45+s1);
+	   r.shoes();
+	   r.bags();
+   }
+}

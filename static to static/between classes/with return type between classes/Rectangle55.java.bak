@@ -1,0 +1,19 @@
+class Rectangle55
+{
+ public static void main(String[] args)
+ {
+  int rec = Operation5.area();
+  int rec7 = rec*7;
+  System.out.println("Area of 5 rectangle = " +rec7);
+ }
+}
+class Operation5
+{
+ static int area()
+ {
+  int b = 3;
+  int h = 7;
+  int ans = b*h;
+  return ans;
+ }
+}

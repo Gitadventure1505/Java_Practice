@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;css_selector&apos; to &apos;DDT&apos;&#x0D;&#x0A;- Original project: &apos;selenium&apos;&#x0D;&#x0A;- Original element: &apos;selenium/src/css_selector&apos;&#x0D;&#x0A;- Renamed element: &apos;selenium/src/DDT&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;css_selector&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;css_selector" name="DDT" qualified="false" references="true" stamp="1584184211841" textual="false" version="1.0"/>
+</session>

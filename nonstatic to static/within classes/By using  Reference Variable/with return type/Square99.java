@@ -1,0 +1,15 @@
+class Square99
+{
+ int area()
+ {
+  int a=7;
+  int ans = a*a;
+  return ans;
+ }
+ public static void main(String[] args)
+ {
+  Square99 S1 = new Square99();
+  int x = S1.area();
+  System.out.println(x);
+ }
+}

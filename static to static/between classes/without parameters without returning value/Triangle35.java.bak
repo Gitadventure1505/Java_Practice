@@ -1,0 +1,19 @@
+class Triangle35
+{
+ public static void main(String[] args)
+ {
+  System.out.println("----cal starts----");
+  Area tria();
+  System.out.println("----cal ends");
+ }
+}
+class Area
+{
+ static void tria()
+ {
+ int b=10;
+ int h= 17;
+ int ans=(b*h)/2;
+ System.out.println("area of tri ="+ ans);
+ }
+}

@@ -1,0 +1,20 @@
+class Pincode117
+{
+ public static void main(String[] args)
+ {
+  long[] box = new long[4];
+  box[0] = 898722;
+  box[1] = 787878;
+  box[2] = 676767;
+  box[3] = 656565;
+  	  	  System.out.println("---------------");
+  	  System.out.println("CITY\tPINCODE");
+	  	  System.out.println("---------------");
+
+
+  for(int i = 0; i < box.length; i++)
+  {
+   System.out.println("city "+(i+1)+"\t"+box[i]);
+  }
+ }
+}
